@@ -7,24 +7,25 @@
 <fmt:setBundle basename="MyResources"/>
 <html>
 <head>
-    <title><fmt:message key="header.registration"/></title>
+    <title>Login</title>
     <meta content="text/html; charset=UTF-8"/>
 
 </head>
 <body>
-<h1><fmt:message key="header.registration"/></h1>
+<h1><fmt:message key="header.login"/></h1>
 <div class="nav col-lg-12">
     <span>
         <a href="${pageContext.request.contextPath}/restaurant/main"><fmt:message key="header.main"/></a>
-        <a class="nav-link" href="${pageContext.request.contextPath}/restaurant/login"><fmt:message key="header.login"/></a>
-</span>
+            <a class="nav-link" href="${pageContext.request.contextPath}/restaurant/registration"><fmt:message
+                    key="header.registration"/></a>
+    </span>
     <a href="${pageContext.request.contextPath}?sessionLocale=en">ENG</a>
     <a href="${pageContext.request.contextPath}?sessionLocale=ru">RU</a>
 </div>
 <div class="form col-lg-12">
-    <form name="form" class="form" autocomplete="off"
-          action="${pageContext.request.contextPath}/restaurant/registration/Post" method="post">
-        <p>${registrationStatus}</p>
+    <form name="form" autocomplete="off"
+          action="${pageContext.request.contextPath}/restaurant/login/Post" method="post">
+        <p>${loginStatus}</p>
         <fmt:message key="label.login" var="label_log"/>
         <label text="Login" for="login">${label_log}</label><br>
         <input type="text"

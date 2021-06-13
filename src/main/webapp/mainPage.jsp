@@ -48,14 +48,12 @@
           <a class="nav-link" href="${pageContext.request.contextPath}/restaurant/admin"><fmt:message key="header.adminPage"/></a>
         </c:if>
 
-
-        <div style="margin-left: 10%">
-          <select name="sessionLocale" onchange="submit()">
-            <option value="en"><fmt:message key="language.en"/></option>
-            <option value="uk"><fmt:message key="language.ru"/></option>
-          </select>
-        </div>
-
+          <div style="margin-left: 10%">
+            <a href="${pageContext.request.contextPath}?sessionLocale=en"
+               class="btn btn-outline-success" style="background-color: blue"><fmt:message key="language.en"/></a>
+            <a href="${pageContext.request.contextPath}?sessionLocale=ru"
+               class="btn btn-outline-success" style="background-color: darkred"><fmt:message key="language.ru"/></a>
+          </div>
       </div>
     </div>
   </nav>

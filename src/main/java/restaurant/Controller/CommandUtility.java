@@ -8,10 +8,10 @@ import java.util.HashSet;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
-class CommandUtility {
+public class CommandUtility {
     private static final Logger logger = LogManager.getLogger(CommandUtility.class);
 
-    static void setUserRole(HttpServletRequest request,
+    public static void setUserRole(HttpServletRequest request,
                             Role role, String name) {
         HttpSession session = request.getSession();
         ServletContext context = request.getServletContext();
@@ -24,7 +24,7 @@ class CommandUtility {
                 .setAttribute("loggedUsers", loggedUsers);
     }
 
-    static boolean checkUserIsLogged(HttpServletRequest request, String userName){
+    public static boolean checkUserIsLogged(HttpServletRequest request, String userName){
         logger.info("Checking user logged");
 
         HashSet<String> loggedUsers = (HashSet<String>) request.getSession().getServletContext()
