@@ -12,6 +12,8 @@
   <meta charset="UTF-8">
   <title><fmt:message key="header.restaurant"/></title>
 
+  <link rel="stylesheet" href="${pageContext.request.contextPath}/css/cards.css" />
+
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -61,7 +63,8 @@
 
 <main style="margin-top: 7%">
 
-  <span><fmt:message key="label.sort"/>:</span>
+  <div>
+  <span><fmt:message key="label.sort"/></span>
   <a href="${pageContext.request.contextPath}/restaurant/main?page=${currentPage}&sortField=price&sortDir=${sortDirReversed}&choose=${choose}"><fmt:message key="sort.price"/></a>
   <a href="${pageContext.request.contextPath}/restaurant/main?page=${currentPage}&sortField=name&sortDir=${sortDirReversed}&choose=${choose}"><fmt:message key="sort.name"/></a>
   <br>
@@ -71,47 +74,52 @@
   <a href="${pageContext.request.contextPath}/restaurant/main?page=1&sortField=${sortField}&sortDir=${sortDir}&choose=pizza"><fmt:message key="category.pizza"/></a>
   <a href="${pageContext.request.contextPath}/restaurant/main?page=1&sortField=${sortField}&sortDir=${sortDir}&choose=sushi"><fmt:message key="category.sushi"/></a>
   <a href="${pageContext.request.contextPath}/restaurant/main?page=1&sortField=${sortField}&sortDir=${sortDir}&choose=dessert"><fmt:message key="category.dessert"/></a>
+  </div>
 
-
-    <div class="menu">
+    <div class="cardCont" style="margin-top: 2%">
       <c:forEach var="dish" items="${dishesList}">
-        <div class="dish col-lg-4">
-          <img src="/images/${dish.image}" alt="dish img"/>
-          <h3>${dish.name}</h3>
-          <p><fmt:formatNumber value="${dish.price}" maxFractionDigits="2"/></p>
+        <div class="card eachCard" style="width: 21rem;">
+          <img src="/images/${dish.image}" alt="dish img" class="card-img-top imageShow"/>
+          <div class="card-body">
+          <h5 class="card-title">${dish.name}</h5>
+          <h5 class="card-title"><fmt:formatNumber value="${dish.price}" maxFractionDigits="2"/></h5>
+          <p class="card-text">${dish.description}</p>
           <div class="order-btn">
             <form action="${pageContext.request.contextPath}/restaurant/userCabinet/Post" method="post">
               <input type='hidden' id='DishId' name='DishId' value='${dish.id}'>
-              <button type="submit"><fmt:message key="button.order"/></button>
+              <button type="submit" class="btn btn-primary"><fmt:message key="button.order"/></button>
             </form>
+          </div>
           </div>
         </div>
       </c:forEach>
     </div>
 
     <c:if test="${noOfPages > 1}">
-      <div class="col-lg-12">
+      <div class="paging">
 
         <c:if test="${currentPage != 1}">
-          <span><a href="${pageContext.request.contextPath}/restaurant/main?page=${currentPage - 1}&sortField=${sortField}&sortDir=${sortDir}&choose=${choose}"><fmt:message key="page.previous"/></a></span>
+          <span class="page"><a href="${pageContext.request.contextPath}/restaurant/main?page=${currentPage - 1}&sortField=${sortField}&sortDir=${sortDir}&choose=${choose}"><fmt:message key="page.previous"/></a></span>
         </c:if>
 
         <c:forEach begin="1" end="${noOfPages}" var="i">
           <c:choose>
             <c:when test="${currentPage == i}">
-              <span class="disabled">${i}</span>
+              <span class="disabled page">${i}</span>
             </c:when>
             <c:otherwise>
-              <span><a href="${pageContext.request.contextPath}/restaurant/main?page=${i}&sortField=${sortField}&sortDir=${sortDir}&choose=${choose}">${i}</a></span>
+              <span class="page"><a href="${pageContext.request.contextPath}/restaurant/main?page=${i}&sortField=${sortField}&sortDir=${sortDir}&choose=${choose}">${i}</a></span>
             </c:otherwise>
           </c:choose>
         </c:forEach>
 
         <c:if test="${currentPage < noOfPages}">
-          <span><a href="${pageContext.request.contextPath}/restaurant/main?page=${currentPage + 1}&sortField=${sortField}&sortDir=${sortDir}&choose=${choose}"><fmt:message key="page.next"/></a></span>
+          <span class="page"><a href="${pageContext.request.contextPath}/restaurant/main?page=${currentPage + 1}&sortField=${sortField}&sortDir=${sortDir}&choose=${choose}"><fmt:message key="page.next"/></a></span>
         </c:if>
       </div>
     </c:if>
 </main>
+<br>
+<br>
 </body>
 </html>

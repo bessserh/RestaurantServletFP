@@ -1,0 +1,41 @@
+.cardCont {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.eachCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.imageShow {
+    height: 300px;
+    width: auto;
+    object-fit: contain;
+}
+
+
+.paging{
+    margin-top: 2%;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    border: aqua;
+    white-space: nowrap;
+}
+
+
+
+.page {
+    padding: 0px 2%;
+    margin: 0;
+    border: aqua;
+    white-space: nowrap;
+}
+
+.myfoot {
+    margin-top: 2%;
+    background-color: cornsilk;
+}
