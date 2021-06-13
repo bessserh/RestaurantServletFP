@@ -1,0 +1,211 @@
+INFO    2021-06-13 12:34:40,001 [http-nio-8080-exec-6] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 12:34:40,988 [http-nio-8080-exec-6] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 12:36:29,978 [http-nio-8080-exec-6] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 12:36:30,983 [http-nio-8080-exec-6] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 12:37:39,164 [http-nio-8080-exec-7] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 12:37:39,169 [http-nio-8080-exec-7] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 12:37:46,572 [http-nio-8080-exec-10] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 12:37:46,573 [http-nio-8080-exec-10] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 12:45:20,804 [http-nio-8080-exec-7] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 12:45:21,792 [http-nio-8080-exec-7] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 12:46:54,559 [http-nio-8080-exec-6] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 12:46:55,798 [http-nio-8080-exec-6] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 12:47:59,978 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 12:48:01,147 [http-nio-8080-exec-1] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 12:48:01,239 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-13 12:48:01,299 [http-nio-8080-exec-3] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 12:48:01,310 [http-nio-8080-exec-3] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 12:48:01,320 [http-nio-8080-exec-3] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-13 12:48:01,895 [http-nio-8080-exec-5] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 12:48:01,895 [http-nio-8080-exec-5] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 12:48:01,903 [http-nio-8080-exec-5] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-13 12:49:41,534 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 12:49:42,660 [http-nio-8080-exec-1] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 12:49:42,744 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-13 12:49:45,830 [http-nio-8080-exec-3] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 12:49:45,830 [http-nio-8080-exec-3] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 12:49:45,838 [http-nio-8080-exec-3] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-13 12:49:46,367 [http-nio-8080-exec-5] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 12:49:46,369 [http-nio-8080-exec-5] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 12:49:46,369 [http-nio-8080-exec-5] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-13 12:57:33,242 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 12:57:34,256 [http-nio-8080-exec-1] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 12:57:34,337 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-13 12:57:37,648 [http-nio-8080-exec-3] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 12:57:37,648 [http-nio-8080-exec-3] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 12:57:37,648 [http-nio-8080-exec-3] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-13 12:57:38,071 [http-nio-8080-exec-5] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 12:57:38,079 [http-nio-8080-exec-5] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 12:57:38,082 [http-nio-8080-exec-5] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-13 13:03:27,423 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 13:03:28,534 [http-nio-8080-exec-1] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 13:03:28,615 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-13 13:03:31,532 [http-nio-8080-exec-3] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 13:03:31,543 [http-nio-8080-exec-3] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 13:03:31,551 [http-nio-8080-exec-3] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-13 13:03:33,429 [http-nio-8080-exec-5] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 13:03:33,429 [http-nio-8080-exec-5] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 13:03:33,437 [http-nio-8080-exec-5] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-13 13:03:42,061 [http-nio-8080-exec-8] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 13:03:42,061 [http-nio-8080-exec-8] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 13:03:42,077 [http-nio-8080-exec-8] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-13 13:07:39,351 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 13:07:40,471 [http-nio-8080-exec-1] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 13:07:40,552 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-13 13:07:44,629 [http-nio-8080-exec-3] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 13:07:44,639 [http-nio-8080-exec-3] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 13:07:44,639 [http-nio-8080-exec-3] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-13 13:07:45,256 [http-nio-8080-exec-5] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 13:07:45,264 [http-nio-8080-exec-5] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 13:07:45,266 [http-nio-8080-exec-5] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-13 13:09:54,969 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 13:09:56,224 [http-nio-8080-exec-1] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 13:09:56,305 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-13 13:10:00,071 [http-nio-8080-exec-3] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 13:10:00,071 [http-nio-8080-exec-3] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 13:10:00,081 [http-nio-8080-exec-3] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-13 13:10:00,525 [http-nio-8080-exec-5] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 13:10:00,525 [http-nio-8080-exec-5] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 13:10:00,525 [http-nio-8080-exec-5] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-13 13:20:19,452 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 13:20:20,748 [http-nio-8080-exec-1] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 13:20:20,841 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-13 13:20:24,627 [http-nio-8080-exec-3] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 13:20:24,635 [http-nio-8080-exec-3] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 13:20:24,637 [http-nio-8080-exec-3] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-13 13:20:25,182 [http-nio-8080-exec-5] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 13:20:25,182 [http-nio-8080-exec-5] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 13:20:25,182 [http-nio-8080-exec-5] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-13 13:28:24,499 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 13:28:25,782 [http-nio-8080-exec-1] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 13:28:25,893 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-13 13:28:30,642 [http-nio-8080-exec-2] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 13:28:30,652 [http-nio-8080-exec-2] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 13:28:30,654 [http-nio-8080-exec-2] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-13 13:28:31,192 [http-nio-8080-exec-4] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 13:28:31,192 [http-nio-8080-exec-4] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 13:28:31,200 [http-nio-8080-exec-4] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-13 13:28:36,273 [http-nio-8080-exec-6] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 13:28:36,273 [http-nio-8080-exec-6] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 13:28:36,273 [http-nio-8080-exec-6] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-13 13:29:01,226 [http-nio-8080-exec-5] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 13:29:01,226 [http-nio-8080-exec-5] restaurant.Controller.CommandImpl.MainPageCommand  -    -page 1
+INFO    2021-06-13 13:29:01,226 [http-nio-8080-exec-5] restaurant.Controller.CommandImpl.MainPageCommand  -    -sort field name
+INFO    2021-06-13 13:29:01,226 [http-nio-8080-exec-5] restaurant.Controller.CommandImpl.MainPageCommand  -    -sort dir asc
+INFO    2021-06-13 13:29:01,226 [http-nio-8080-exec-5] restaurant.Controller.CommandImpl.MainPageCommand  -    -category all
+INFO    2021-06-13 13:29:01,226 [http-nio-8080-exec-5] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 13:29:01,226 [http-nio-8080-exec-5] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-13 13:29:03,174 [http-nio-8080-exec-6] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 13:29:03,174 [http-nio-8080-exec-6] restaurant.Controller.CommandImpl.MainPageCommand  -    -page 1
+INFO    2021-06-13 13:29:03,174 [http-nio-8080-exec-6] restaurant.Controller.CommandImpl.MainPageCommand  -    -sort field name
+INFO    2021-06-13 13:29:03,174 [http-nio-8080-exec-6] restaurant.Controller.CommandImpl.MainPageCommand  -    -sort dir asc
+INFO    2021-06-13 13:29:03,174 [http-nio-8080-exec-6] restaurant.Controller.CommandImpl.MainPageCommand  -    -category first
+INFO    2021-06-13 13:29:03,174 [http-nio-8080-exec-6] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 13:29:03,174 [http-nio-8080-exec-6] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-13 13:29:07,565 [http-nio-8080-exec-8] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 13:29:07,565 [http-nio-8080-exec-8] restaurant.Controller.CommandImpl.MainPageCommand  -    -page 1
+INFO    2021-06-13 13:29:07,565 [http-nio-8080-exec-8] restaurant.Controller.CommandImpl.MainPageCommand  -    -sort field name
+INFO    2021-06-13 13:29:07,565 [http-nio-8080-exec-8] restaurant.Controller.CommandImpl.MainPageCommand  -    -sort dir asc
+INFO    2021-06-13 13:29:07,565 [http-nio-8080-exec-8] restaurant.Controller.CommandImpl.MainPageCommand  -    -category drinks
+INFO    2021-06-13 13:29:07,565 [http-nio-8080-exec-8] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 13:29:07,565 [http-nio-8080-exec-8] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-13 13:29:17,906 [http-nio-8080-exec-9] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 13:29:17,906 [http-nio-8080-exec-9] restaurant.Controller.CommandImpl.MainPageCommand  -    -page 1
+INFO    2021-06-13 13:29:17,906 [http-nio-8080-exec-9] restaurant.Controller.CommandImpl.MainPageCommand  -    -sort field name
+INFO    2021-06-13 13:29:17,906 [http-nio-8080-exec-9] restaurant.Controller.CommandImpl.MainPageCommand  -    -sort dir asc
+INFO    2021-06-13 13:29:17,906 [http-nio-8080-exec-9] restaurant.Controller.CommandImpl.MainPageCommand  -    -category pizza
+INFO    2021-06-13 13:29:17,906 [http-nio-8080-exec-9] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 13:29:17,906 [http-nio-8080-exec-9] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-13 13:29:20,868 [http-nio-8080-exec-10] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 13:29:20,868 [http-nio-8080-exec-10] restaurant.Controller.CommandImpl.MainPageCommand  -    -page 1
+INFO    2021-06-13 13:29:20,868 [http-nio-8080-exec-10] restaurant.Controller.CommandImpl.MainPageCommand  -    -sort field name
+INFO    2021-06-13 13:29:20,868 [http-nio-8080-exec-10] restaurant.Controller.CommandImpl.MainPageCommand  -    -sort dir asc
+INFO    2021-06-13 13:29:20,868 [http-nio-8080-exec-10] restaurant.Controller.CommandImpl.MainPageCommand  -    -category all
+INFO    2021-06-13 13:29:20,868 [http-nio-8080-exec-10] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 13:29:20,868 [http-nio-8080-exec-10] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-13 13:29:28,231 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 13:29:28,231 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  -    -page 2
+INFO    2021-06-13 13:29:28,231 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  -    -sort field name
+INFO    2021-06-13 13:29:28,231 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  -    -sort dir asc
+INFO    2021-06-13 13:29:28,231 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  -    -category all
+INFO    2021-06-13 13:29:28,231 [http-nio-8080-exec-1] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 13:29:28,231 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-13 13:29:33,770 [http-nio-8080-exec-3] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-13 13:29:33,770 [http-nio-8080-exec-3] restaurant.Controller.CommandImpl.MainPageCommand  -    -page 1
+INFO    2021-06-13 13:29:33,770 [http-nio-8080-exec-3] restaurant.Controller.CommandImpl.MainPageCommand  -    -sort field name
+INFO    2021-06-13 13:29:33,770 [http-nio-8080-exec-3] restaurant.Controller.CommandImpl.MainPageCommand  -    -sort dir asc
+INFO    2021-06-13 13:29:33,770 [http-nio-8080-exec-3] restaurant.Controller.CommandImpl.MainPageCommand  -    -category all
+INFO    2021-06-13 13:29:33,770 [http-nio-8080-exec-3] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-13 13:29:33,770 [http-nio-8080-exec-3] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+

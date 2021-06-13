@@ -13,11 +13,11 @@ import java.util.Map;
 
 public class Servlet extends HttpServlet {
 
-    private Map<String, Command> commands = new HashMap<>();
+    private final Map<String, Command> commands = new HashMap<>();
 
     public void init(ServletConfig servletConfig){
         commands.put("main", new MainPageCommand());
-        commands.put("exception", new Exception());
+        //commands.put("exception", new Exception());
 
         //registration, authorization
         commands.put("registration", new RegistrationGET());

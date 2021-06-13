@@ -2,27 +2,54 @@ package restaurant.Models;
 
 public class Dishes {
 
-    private int id;
-    private String name;
-    private Double price;
-    private String description;
-    private Category category;
+    Integer id;
+    String name;
+    Double price;
+    String image;
+    String description;
+    Category category;
+    Integer amount;
+    Double totalPrice;
 
-    public Dishes() { };
+    public Dishes() {
+    }
 
-    public Dishes(int id, String name, Double price, String description, Category category) {
+    public Dishes(Integer id, String name, Double price, String image, String description, Category category) {
         this.id = id;
         this.name = name;
         this.price = price;
+        this.image = image;
         this.description = description;
         this.category = category;
     }
 
-    public int getId() {
+    public Dishes(Integer id, String name, Double price, String image, String description, Category category, Integer amount, Double totalPrice) {
+        this.id = id;
+        this.name = name;
+        this.price = price;
+        this.image = image;
+        this.description = description;
+        this.category = category;
+        this.amount = amount;
+        this.totalPrice = totalPrice;
+    }
+
+    public Dishes(Integer id, String name, Double price, String image, String description, Category category, Integer amount) {
+        this.id = id;
+        this.name = name;
+        this.price = price;
+        this.image = image;
+        this.description = description;
+        this.category = category;
+        this.amount = amount;
+    }
+
+
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -42,6 +69,14 @@ public class Dishes {
         this.price = price;
     }
 
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
+
     public String getDescription() {
         return description;
     }
@@ -56,5 +91,21 @@ public class Dishes {
 
     public void setCategory(Category category) {
         this.category = category;
+    }
+
+    public Integer getAmount() {
+        return amount;
+    }
+
+    public void setAmount(Integer amount) {
+        this.amount = amount;
+    }
+
+    public Double getTotalPrice() {
+        return totalPrice;
+    }
+
+    public void setTotalPrice(Double totalPrice) {
+        this.totalPrice = totalPrice;
     }
 }

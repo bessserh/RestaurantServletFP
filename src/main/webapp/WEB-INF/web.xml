@@ -11,7 +11,24 @@
         <servlet-name>Servlet</servlet-name>
         <url-pattern>/restaurant/*</url-pattern>
     </servlet-mapping>
+    
+    <listener>
+        <listener-class>restaurant.listeners.SessionListener</listener-class>
+    </listener>
+    
+    <welcome-file-list>
+        <welcome-file>restaurant/*</welcome-file>
+    </welcome-file-list>
 
+    <jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>
+            <page-encoding>UTF-8</page-encoding>
+        </jsp-property-group>
+    </jsp-config>
+
+
+    <!--
     <error-page>
         <error-code>404</error-code>
         <location>/exception.jsp</location>
@@ -19,8 +36,8 @@
 
     <error-page>
         <error-code>500</error-code>
-        <location>/index.jsp</location>
-    </error-page>
+        <location>/exception.jsp</location>
+    </error-page>-->
 
 
 </web-app>

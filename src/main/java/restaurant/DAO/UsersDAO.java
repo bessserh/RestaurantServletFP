@@ -1,5 +1,6 @@
 package restaurant.DAO;
 
+import restaurant.Models.Role;
 import restaurant.Models.User;
 
 import java.sql.Connection;
@@ -14,11 +15,16 @@ public class UsersDAO {
         int result = 0;
 
         try {
+
             connection = DBConnect.getInstance().getConnection();
-            preparedStatement = connection.prepareStatement("insert into users (login, password) values " +
-                    "(?, ?);");
+            preparedStatement = connection.prepareStatement("insert into users (email, password, active, role) values " +
+                    "(?, ?, ?, ?);");
             preparedStatement.setString(1, user.getLogin());
             preparedStatement.setString(2, user.getPassword());
+            System.out.println(user.getLogin());
+            System.out.println(user.getPassword());
+            preparedStatement.setBoolean(3, true);
+            preparedStatement.setString(4, Role.USER.toString());
 
             result = preparedStatement.executeUpdate();
         } catch (SQLException e) {

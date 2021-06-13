@@ -22,6 +22,6 @@ public class RegistrationPOST implements Command {
 
 
         usersDao.insertUser(user);
-        return "redirect:/index.jsp";
+        return "redirect:/mainPage";
     }
 }
