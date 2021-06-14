@@ -5,7 +5,7 @@ import org.apache.log4j.Logger;
 import restaurant.Controller.Command;
 import restaurant.Controller.CommandUtility;
 import restaurant.DAO.UsersDAO;
-import restaurant.Models.Role;
+import restaurant.Models.Enums.Role;
 import restaurant.Models.User;
 
 import javax.servlet.http.HttpServletRequest;

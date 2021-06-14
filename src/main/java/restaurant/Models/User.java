@@ -1,5 +1,7 @@
 package restaurant.Models;
 
+import restaurant.Models.Enums.Role;
+
 public class User {
     private int id;
     private String login;

@@ -2,13 +2,10 @@ package restaurant.DAO;
 
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
-import restaurant.Models.Category;
+import restaurant.Models.Enums.Category;
 import restaurant.Models.Dishes;
 
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -46,6 +43,79 @@ public class DishesDAO {
             }
         }
         return menu;
+    }
+
+    public List<Dishes> findDishesByOrderId(Integer orderId) {
+        PreparedStatement preparedStatement = null;
+        ResultSet resultSet = null;
+        Connection connection = null;
+        List<Dishes> dishes = new ArrayList<>();
+        try {
+            connection = DBConnect.getInstance().getConnection();
+            preparedStatement = connection.prepareStatement(
+                    "select d.id, d.name, d.price, d.image, d.description, d.category, " +
+                    "od.amount, od.total_dish " +
+                    "from dishes d join ordered_dishes od on d.id = od.dish_id " +
+                    "join orders o on o.id = od.order_id where " +
+                    "o.id = ?");
+            preparedStatement.setInt(1, orderId);
+
+            resultSet = preparedStatement.executeQuery();
+            while (resultSet.next()) {
+                dishes.add(new Dishes(resultSet.getInt("id"),
+                        resultSet.getString("name"),
+                        resultSet.getDouble("price"),
+                        resultSet.getString("image"),
+                        resultSet.getString("description"),
+                        Category.valueOf(resultSet.getString("category")),
+                        resultSet.getInt("amount"),
+                        resultSet.getDouble("total_dish")));
+            }
+        } catch (SQLException e) {
+            logger.error("SQL exception occurred" + e);
+        } finally {
+            try {
+                preparedStatement.close();
+                connection.close();
+                resultSet.close();
+            } catch (SQLException e) {
+                logger.error("Error closing connection" + e);
+            }
+        }
+        return dishes;
+    }
+
+    public Dishes findDishByDishId(Integer dishId) {
+        PreparedStatement preparedStatement = null;
+        ResultSet resultSet = null;
+        Connection connection = null;
+        Dishes dish = null;
+        try {
+            connection = DBConnect.getInstance().getConnection();
+            preparedStatement = connection.prepareStatement("SELECT * FROM dishes where id = ?;");
+            preparedStatement.setInt(1, dishId);
+            resultSet = preparedStatement.executeQuery();
+
+            if (resultSet.next()) {
+                dish = new Dishes(resultSet.getInt("id"),
+                        resultSet.getString("name"),
+                        resultSet.getDouble("price"),
+                        resultSet.getString("image"),
+                        resultSet.getString("description"),
+                        Category.valueOf(resultSet.getString("category")));
+            }
+        } catch (SQLException e) {
+            logger.error("SQL exception occurred" + e);
+        } finally {
+            try {
+                preparedStatement.close();
+                connection.close();
+                resultSet.close();
+            } catch (SQLException e) {
+                logger.error("Error closing connection" + e);
+            }
+        }
+        return dish;
     }
 
 }

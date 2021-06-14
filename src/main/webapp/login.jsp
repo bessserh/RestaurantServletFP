@@ -7,7 +7,7 @@
 <fmt:setBundle basename="MyResources"/>
 <html>
 <head>
-    <title>Login</title>
+    <title><fmt:message key="header.login"/></title>
     <meta content="text/html; charset=UTF-8"/>
 
 </head>

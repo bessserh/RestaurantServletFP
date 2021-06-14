@@ -1,5 +1,7 @@
 package restaurant.Models;
 
+import restaurant.Models.Enums.Category;
+
 public class Dishes {
 
     Integer id;

@@ -1,9 +1,8 @@
 package restaurant.DAO;
 
-import at.favre.lib.crypto.bcrypt.BCrypt;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
-import restaurant.Models.Role;
+import restaurant.Models.Enums.Role;
 import restaurant.Models.User;
 
 import java.sql.Connection;

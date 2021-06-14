@@ -24,12 +24,14 @@ public class Servlet extends HttpServlet {
         commands.put("main", new MainPageCommand());
         commands.put("logout", new LogOutCommand());
         //commands.put("exception", new Exception());
-
         //registration, authorization
         commands.put("registration", new RegistrationGET());
         commands.put("registrationPost", new RegistrationPOST());
         commands.put("login", new LoginGET());
         commands.put("loginPost", new LoginPOST());
+        //user cabinet -> all orders commands
+        commands.put("userCabinet", new UserCabinetGET());
+        commands.put("userCabinetPost", new UserCabinetPOST());
     }
 
     public void doGet(HttpServletRequest request,

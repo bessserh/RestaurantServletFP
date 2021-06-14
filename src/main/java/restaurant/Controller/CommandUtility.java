@@ -1,6 +1,6 @@
 package restaurant.Controller;
 
-import restaurant.Models.Role;
+import restaurant.Models.Enums.Role;
 import javax.servlet.ServletContext;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;

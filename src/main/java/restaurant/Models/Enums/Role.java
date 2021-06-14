@@ -1,4 +1,4 @@
-package restaurant.Models;
+package restaurant.Models.Enums;
 
 public enum Role {
     USER,
