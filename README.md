@@ -1,4 +1,4 @@
 # RestaurantServletFP
 
-# Database structure:
-![alt text](dbSheme.pgerd.png "DataBase structure")​
+## Database structure:
+![alt text](dbSheme.pgerd.png)​
