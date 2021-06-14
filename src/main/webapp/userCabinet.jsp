@@ -9,12 +9,12 @@
 <fmt:setBundle basename="MyResources"/>
 <html>
 <head>
-    <title>User Cabinet</title>
+    <title><fmt:message key="header.userCabinet"/></title>
     <meta content="text/html; charset=UTF-8"/>
 
 </head>
-<h1><fmt:message key="h.userCabinet"/></h1>
-<a href="${pageContext.request.contextPath}/restaurant/main"><fmt:message key="h.mainPage"/></a>
+<h1><fmt:message key="header.userCabinet"/></h1>
+<a href="${pageContext.request.contextPath}/restaurant/main"><fmt:message key="header.main"/></a>
 <wel:greeting  name="${name}"/>
 
 <c:if test="${dishes!=null}">
@@ -60,17 +60,17 @@
     </c:forEach>
     <c:if test="${dishes.size() > 0}">
 
-        <h3><fmt:message key="label.total"/>: <fmt:formatNumber value="${totalPrice/currency_course}" maxFractionDigits="2"/> <fmt:message key="currency"/></h3>
+        <h3><fmt:message key="label.total"/>: <fmt:formatNumber value="${totalPrice}" maxFractionDigits="2"/></h3>
         <c:if test="${orderStatus=='MAKING'}">
             <form action="${pageContext.request.contextPath}/restaurant/userCabinet/Pay" method="post">
-                <button type="submit"><fmt:message key="but.pay"/></button>
+                <button type="submit"><fmt:message key="button.pay"/></button>
             </form>
         </c:if>
     </c:if>
     <c:if test="${orderStatus=='APPROVING'}">
         <form action="${pageContext.request.contextPath}/restaurant/userCancelOrder" method="post">
             <input type='hidden' id='order' name='orderId' value='${orderId}'>
-            <button type="submit"><fmt:message key="but.cancel"/></button>
+            <button type="submit"><fmt:message key="button.cancel"/></button>
         </form>
     </c:if>
 </c:if>

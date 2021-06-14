@@ -13,6 +13,7 @@ import java.util.List;
 
 public class OrdersDAO {
     private static final Logger logger = LogManager.getLogger(OrdersDAO.class);
+    private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 
     public List<Orders> findAllOrders(String status) {
         PreparedStatement preparedStatement = null;
@@ -23,7 +24,7 @@ public class OrdersDAO {
             preparedStatement = connection.prepareStatement("SELECT * FROM orders WHERE status = ?;");
             preparedStatement.setString(1, status);
             ResultSet resultSet = preparedStatement.executeQuery();
-            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+
             while (resultSet.next()) {
                 orders.add(new Orders(resultSet.getInt("id"),
                         resultSet.getString("status"),
@@ -87,8 +88,13 @@ public class OrdersDAO {
         order.setUserId(userId);
         try {
             connection = DBConnect.getInstance().getConnection();
-            preparedStatement = connection.prepareStatement("insert into orders(user_id) VALUES (?)", Statement.RETURN_GENERATED_KEYS);
+
+            preparedStatement = connection.prepareStatement("insert into orders(user_id, status, creation_date, update_date) " +
+                    "VALUES (?, ?, ?, ?)", Statement.RETURN_GENERATED_KEYS);
             preparedStatement.setInt(1, userId);
+            preparedStatement.setString(2, Status.MAKING.toString());
+            preparedStatement.setTimestamp(3, Timestamp.valueOf(LocalDateTime.now().format(formatter)));
+            preparedStatement.setTimestamp(4, Timestamp.valueOf(LocalDateTime.now().format(formatter)));
             success = preparedStatement.executeUpdate();
             idSet = preparedStatement.getGeneratedKeys();
             if (idSet.next()) {
