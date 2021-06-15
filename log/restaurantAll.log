@@ -2472,3 +2472,418 @@ INFO    2021-06-15 00:50:19,866 [http-nio-8080-exec-1] restaurant.Controller.Com
 INFO    2021-06-15 00:50:19,866 [http-nio-8080-exec-1] restaurant.DAO.DBConnect  - Get connection by pool
 INFO    2021-06-15 00:50:19,874 [http-nio-8080-exec-1] restaurant.DAO.DBConnect  - Get connection by pool
 INFO    2021-06-15 00:50:19,874 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - forward to page /userCabinet.jsp
+INFO    2021-06-15 01:18:02,206 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 01:18:02,210 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - request URI /
+INFO    2021-06-15 01:18:02,210 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-15 01:18:03,378 [http-nio-8080-exec-1] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 01:18:03,466 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-15 01:18:03,470 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - forward to page /mainPage.jsp
+INFO    2021-06-15 01:18:06,974 [http-nio-8080-exec-2] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 01:18:06,974 [http-nio-8080-exec-2] restaurant.Controller.Servlet  - request URI /
+INFO    2021-06-15 01:18:06,978 [http-nio-8080-exec-2] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-15 01:18:06,978 [http-nio-8080-exec-2] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 01:18:06,986 [http-nio-8080-exec-2] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-15 01:18:06,986 [http-nio-8080-exec-2] restaurant.Controller.Servlet  - forward to page /mainPage.jsp
+INFO    2021-06-15 01:18:07,546 [http-nio-8080-exec-4] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 01:18:07,546 [http-nio-8080-exec-4] restaurant.Controller.Servlet  - request URI /
+INFO    2021-06-15 01:18:07,546 [http-nio-8080-exec-4] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-15 01:18:07,550 [http-nio-8080-exec-4] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 01:18:07,554 [http-nio-8080-exec-4] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-15 01:18:07,554 [http-nio-8080-exec-4] restaurant.Controller.Servlet  - forward to page /mainPage.jsp
+INFO    2021-06-15 01:18:10,537 [http-nio-8080-exec-7] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 01:18:10,537 [http-nio-8080-exec-7] restaurant.Controller.Servlet  - request URI /restaurant/login
+INFO    2021-06-15 01:18:10,537 [http-nio-8080-exec-7] restaurant.Controller.CommandImpl.LoginGET  - login page
+INFO    2021-06-15 01:18:10,537 [http-nio-8080-exec-7] restaurant.Controller.Servlet  - forward to page /login.jsp
+INFO    2021-06-15 01:18:24,132 [http-nio-8080-exec-8] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 01:18:24,132 [http-nio-8080-exec-8] restaurant.Controller.Servlet  - request URI /restaurant/login/Post
+INFO    2021-06-15 01:18:24,132 [http-nio-8080-exec-8] restaurant.Controller.CommandImpl.LoginPOST  - checking data from login
+INFO    2021-06-15 01:18:24,164 [http-nio-8080-exec-8] restaurant.Controller.CommandUtility  - Checking user logged
+INFO    2021-06-15 01:18:24,168 [http-nio-8080-exec-8] restaurant.Controller.CommandUtility  - Logged users []
+INFO    2021-06-15 01:18:24,168 [http-nio-8080-exec-8] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 01:18:24,184 [http-nio-8080-exec-8] restaurant.Controller.CommandImpl.LoginPOST  - login as user
+INFO    2021-06-15 01:18:24,184 [http-nio-8080-exec-8] restaurant.Controller.Servlet  - redirect to page /main
+INFO    2021-06-15 01:18:24,199 [http-nio-8080-exec-9] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 01:18:24,199 [http-nio-8080-exec-9] restaurant.Controller.Servlet  - request URI /restaurant/main
+INFO    2021-06-15 01:18:24,199 [http-nio-8080-exec-9] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-15 01:18:24,199 [http-nio-8080-exec-9] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 01:18:24,199 [http-nio-8080-exec-9] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-15 01:18:24,199 [http-nio-8080-exec-9] restaurant.Controller.Servlet  - forward to page /mainPage.jsp
+INFO    2021-06-15 01:18:26,338 [http-nio-8080-exec-10] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 01:18:26,338 [http-nio-8080-exec-10] restaurant.Controller.Servlet  - request URI /restaurant/userCabinet
+INFO    2021-06-15 01:18:26,338 [http-nio-8080-exec-10] restaurant.Controller.CommandImpl.UserCabinetGET  - Opening user page
+INFO    2021-06-15 01:18:26,354 [http-nio-8080-exec-10] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 01:18:26,416 [http-nio-8080-exec-10] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 01:18:26,416 [http-nio-8080-exec-10] restaurant.Controller.Servlet  - forward to page /userCabinet.jsp
+INFO    2021-06-15 01:18:35,066 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 01:18:35,066 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - request URI /restaurant/amountChange
+INFO    2021-06-15 01:18:35,066 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-15 01:18:35,066 [http-nio-8080-exec-1] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 01:18:35,082 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-15 01:18:35,082 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - forward to page /mainPage.jsp
+INFO    2021-06-15 22:01:55,327 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:01:55,340 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - request URI /
+INFO    2021-06-15 22:01:55,340 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-15 22:01:56,437 [http-nio-8080-exec-1] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:01:56,578 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-15 22:01:56,578 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - forward to page /mainPage.jsp
+INFO    2021-06-15 22:01:59,635 [http-nio-8080-exec-2] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:01:59,635 [http-nio-8080-exec-2] restaurant.Controller.Servlet  - request URI /
+INFO    2021-06-15 22:01:59,635 [http-nio-8080-exec-2] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-15 22:01:59,648 [http-nio-8080-exec-2] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:01:59,648 [http-nio-8080-exec-2] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-15 22:01:59,648 [http-nio-8080-exec-2] restaurant.Controller.Servlet  - forward to page /mainPage.jsp
+INFO    2021-06-15 22:02:00,665 [http-nio-8080-exec-5] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:02:00,673 [http-nio-8080-exec-5] restaurant.Controller.Servlet  - request URI /
+INFO    2021-06-15 22:02:00,676 [http-nio-8080-exec-5] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-15 22:02:00,676 [http-nio-8080-exec-5] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:02:00,676 [http-nio-8080-exec-5] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-15 22:02:00,676 [http-nio-8080-exec-5] restaurant.Controller.Servlet  - forward to page /mainPage.jsp
+INFO    2021-06-15 22:03:51,812 [http-nio-8080-exec-10] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:03:51,812 [http-nio-8080-exec-10] restaurant.Controller.Servlet  - request URI /restaurant/login
+INFO    2021-06-15 22:03:51,812 [http-nio-8080-exec-10] restaurant.Controller.CommandImpl.LoginGET  - login page
+INFO    2021-06-15 22:03:51,812 [http-nio-8080-exec-10] restaurant.Controller.Servlet  - forward to page /login.jsp
+INFO    2021-06-15 22:03:59,756 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:03:59,756 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - request URI /restaurant/login/Post
+INFO    2021-06-15 22:03:59,756 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.LoginPOST  - checking data from login
+INFO    2021-06-15 22:03:59,769 [http-nio-8080-exec-1] restaurant.Controller.CommandUtility  - Checking user logged
+INFO    2021-06-15 22:03:59,782 [http-nio-8080-exec-1] restaurant.Controller.CommandUtility  - Logged users []
+INFO    2021-06-15 22:03:59,782 [http-nio-8080-exec-1] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:03:59,882 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.LoginPOST  - login as user
+INFO    2021-06-15 22:03:59,882 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - redirect to page /main
+INFO    2021-06-15 22:03:59,908 [http-nio-8080-exec-3] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:03:59,908 [http-nio-8080-exec-3] restaurant.Controller.Servlet  - request URI /restaurant/main
+INFO    2021-06-15 22:03:59,908 [http-nio-8080-exec-3] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-15 22:03:59,917 [http-nio-8080-exec-3] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:03:59,917 [http-nio-8080-exec-3] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-15 22:03:59,917 [http-nio-8080-exec-3] restaurant.Controller.Servlet  - forward to page /mainPage.jsp
+INFO    2021-06-15 22:04:03,431 [http-nio-8080-exec-2] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:04:03,431 [http-nio-8080-exec-2] restaurant.Controller.Servlet  - request URI /restaurant/userCabinet
+INFO    2021-06-15 22:04:03,431 [http-nio-8080-exec-2] restaurant.Controller.CommandImpl.UserCabinetGET  - Opening user page
+INFO    2021-06-15 22:04:03,431 [http-nio-8080-exec-2] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:04:03,483 [http-nio-8080-exec-2] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:04:03,505 [http-nio-8080-exec-2] restaurant.Controller.Servlet  - forward to page /userCabinet.jsp
+INFO    2021-06-15 22:16:18,207 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:16:18,215 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - request URI /
+INFO    2021-06-15 22:16:18,215 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-15 22:16:19,514 [http-nio-8080-exec-1] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:16:19,585 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-15 22:16:19,593 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - forward to page /mainPage.jsp
+INFO    2021-06-15 22:16:22,893 [http-nio-8080-exec-3] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:16:22,893 [http-nio-8080-exec-3] restaurant.Controller.Servlet  - request URI /
+INFO    2021-06-15 22:16:22,893 [http-nio-8080-exec-3] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-15 22:16:22,893 [http-nio-8080-exec-3] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:16:22,893 [http-nio-8080-exec-3] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-15 22:16:22,893 [http-nio-8080-exec-3] restaurant.Controller.Servlet  - forward to page /mainPage.jsp
+INFO    2021-06-15 22:16:24,597 [http-nio-8080-exec-5] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:16:24,597 [http-nio-8080-exec-5] restaurant.Controller.Servlet  - request URI /
+INFO    2021-06-15 22:16:24,600 [http-nio-8080-exec-5] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-15 22:16:24,600 [http-nio-8080-exec-5] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:16:24,600 [http-nio-8080-exec-5] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-15 22:16:24,600 [http-nio-8080-exec-5] restaurant.Controller.Servlet  - forward to page /mainPage.jsp
+INFO    2021-06-15 22:17:41,537 [http-nio-8080-exec-3] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:17:41,537 [http-nio-8080-exec-3] restaurant.Controller.Servlet  - request URI /restaurant/login
+INFO    2021-06-15 22:17:41,537 [http-nio-8080-exec-3] restaurant.Controller.CommandImpl.LoginGET  - login page
+INFO    2021-06-15 22:17:41,537 [http-nio-8080-exec-3] restaurant.Controller.Servlet  - forward to page /login.jsp
+INFO    2021-06-15 22:17:47,969 [http-nio-8080-exec-4] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:17:47,969 [http-nio-8080-exec-4] restaurant.Controller.Servlet  - request URI /restaurant/login/Post
+INFO    2021-06-15 22:17:47,969 [http-nio-8080-exec-4] restaurant.Controller.CommandImpl.LoginPOST  - checking data from login
+INFO    2021-06-15 22:17:47,982 [http-nio-8080-exec-4] restaurant.Controller.CommandUtility  - Checking user logged
+INFO    2021-06-15 22:17:47,982 [http-nio-8080-exec-4] restaurant.Controller.CommandUtility  - Logged users []
+INFO    2021-06-15 22:17:47,982 [http-nio-8080-exec-4] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:17:48,017 [http-nio-8080-exec-4] restaurant.Controller.CommandImpl.LoginPOST  - login as user
+INFO    2021-06-15 22:17:48,017 [http-nio-8080-exec-4] restaurant.Controller.Servlet  - redirect to page /main
+INFO    2021-06-15 22:17:48,030 [http-nio-8080-exec-5] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:17:48,030 [http-nio-8080-exec-5] restaurant.Controller.Servlet  - request URI /restaurant/main
+INFO    2021-06-15 22:17:48,030 [http-nio-8080-exec-5] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-15 22:17:48,030 [http-nio-8080-exec-5] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:17:48,030 [http-nio-8080-exec-5] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-15 22:17:48,030 [http-nio-8080-exec-5] restaurant.Controller.Servlet  - forward to page /mainPage.jsp
+INFO    2021-06-15 22:17:51,592 [http-nio-8080-exec-6] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:17:51,592 [http-nio-8080-exec-6] restaurant.Controller.Servlet  - request URI /restaurant/userCabinet
+INFO    2021-06-15 22:17:51,592 [http-nio-8080-exec-6] restaurant.Controller.CommandImpl.UserCabinetGET  - Opening user page
+INFO    2021-06-15 22:17:51,594 [http-nio-8080-exec-6] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:17:51,634 [http-nio-8080-exec-6] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:17:51,642 [http-nio-8080-exec-6] restaurant.Controller.Servlet  - forward to page /userCabinet.jsp
+INFO    2021-06-15 22:19:50,887 [http-nio-8080-exec-9] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:19:50,887 [http-nio-8080-exec-9] restaurant.Controller.Servlet  - request URI /restaurant/amountChange
+INFO    2021-06-15 22:19:50,887 [http-nio-8080-exec-9] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-15 22:19:50,887 [http-nio-8080-exec-9] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:19:50,902 [http-nio-8080-exec-9] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-15 22:19:50,902 [http-nio-8080-exec-9] restaurant.Controller.Servlet  - forward to page /mainPage.jsp
+INFO    2021-06-15 22:19:53,364 [http-nio-8080-exec-10] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:19:53,364 [http-nio-8080-exec-10] restaurant.Controller.Servlet  - request URI /restaurant/userCabinet
+INFO    2021-06-15 22:19:53,364 [http-nio-8080-exec-10] restaurant.Controller.CommandImpl.UserCabinetGET  - Opening user page
+INFO    2021-06-15 22:19:53,364 [http-nio-8080-exec-10] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:19:53,379 [http-nio-8080-exec-10] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:19:53,379 [http-nio-8080-exec-10] restaurant.Controller.Servlet  - forward to page /userCabinet.jsp
+INFO    2021-06-15 22:20:01,333 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:20:01,333 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - request URI /restaurant/amountChange
+INFO    2021-06-15 22:20:01,333 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-15 22:20:01,333 [http-nio-8080-exec-1] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:20:01,333 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-15 22:20:01,346 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - forward to page /mainPage.jsp
+INFO    2021-06-15 22:20:03,749 [http-nio-8080-exec-2] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:20:03,749 [http-nio-8080-exec-2] restaurant.Controller.Servlet  - request URI /restaurant/userCabinet
+INFO    2021-06-15 22:20:03,749 [http-nio-8080-exec-2] restaurant.Controller.CommandImpl.UserCabinetGET  - Opening user page
+INFO    2021-06-15 22:20:03,749 [http-nio-8080-exec-2] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:20:03,749 [http-nio-8080-exec-2] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:20:03,749 [http-nio-8080-exec-2] restaurant.Controller.Servlet  - forward to page /userCabinet.jsp
+INFO    2021-06-15 22:24:03,416 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:24:03,416 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - request URI /
+INFO    2021-06-15 22:24:03,416 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-15 22:24:04,501 [http-nio-8080-exec-1] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:24:04,562 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-15 22:24:04,572 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - forward to page /mainPage.jsp
+INFO    2021-06-15 22:24:07,687 [http-nio-8080-exec-2] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:24:07,702 [http-nio-8080-exec-2] restaurant.Controller.Servlet  - request URI /
+INFO    2021-06-15 22:24:07,702 [http-nio-8080-exec-2] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-15 22:24:07,702 [http-nio-8080-exec-2] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:24:07,702 [http-nio-8080-exec-2] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-15 22:24:07,702 [http-nio-8080-exec-2] restaurant.Controller.Servlet  - forward to page /mainPage.jsp
+INFO    2021-06-15 22:24:08,210 [http-nio-8080-exec-5] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:24:08,210 [http-nio-8080-exec-5] restaurant.Controller.Servlet  - request URI /
+INFO    2021-06-15 22:24:08,210 [http-nio-8080-exec-5] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-15 22:24:08,210 [http-nio-8080-exec-5] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:24:08,218 [http-nio-8080-exec-5] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-15 22:24:08,218 [http-nio-8080-exec-5] restaurant.Controller.Servlet  - forward to page /mainPage.jsp
+INFO    2021-06-15 22:24:20,371 [http-nio-8080-exec-9] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:24:20,371 [http-nio-8080-exec-9] restaurant.Controller.Servlet  - request URI /restaurant/login
+INFO    2021-06-15 22:24:20,379 [http-nio-8080-exec-9] restaurant.Controller.CommandImpl.LoginGET  - login page
+INFO    2021-06-15 22:24:20,379 [http-nio-8080-exec-9] restaurant.Controller.Servlet  - forward to page /login.jsp
+INFO    2021-06-15 22:24:28,566 [http-nio-8080-exec-10] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:24:28,566 [http-nio-8080-exec-10] restaurant.Controller.Servlet  - request URI /restaurant/login/Post
+INFO    2021-06-15 22:24:28,566 [http-nio-8080-exec-10] restaurant.Controller.CommandImpl.LoginPOST  - checking data from login
+INFO    2021-06-15 22:24:28,582 [http-nio-8080-exec-10] restaurant.Controller.CommandUtility  - Checking user logged
+INFO    2021-06-15 22:24:28,594 [http-nio-8080-exec-10] restaurant.Controller.CommandUtility  - Logged users []
+INFO    2021-06-15 22:24:28,594 [http-nio-8080-exec-10] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:24:28,622 [http-nio-8080-exec-10] restaurant.Controller.CommandImpl.LoginPOST  - login as user
+INFO    2021-06-15 22:24:28,622 [http-nio-8080-exec-10] restaurant.Controller.Servlet  - redirect to page /main
+INFO    2021-06-15 22:24:28,646 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:24:28,646 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - request URI /restaurant/main
+INFO    2021-06-15 22:24:28,646 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-15 22:24:28,646 [http-nio-8080-exec-1] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:24:28,650 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-15 22:24:28,650 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - forward to page /mainPage.jsp
+INFO    2021-06-15 22:24:30,583 [http-nio-8080-exec-3] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:24:30,587 [http-nio-8080-exec-3] restaurant.Controller.Servlet  - request URI /restaurant/userCabinet
+INFO    2021-06-15 22:24:30,587 [http-nio-8080-exec-3] restaurant.Controller.CommandImpl.UserCabinetGET  - Opening user page
+INFO    2021-06-15 22:24:30,587 [http-nio-8080-exec-3] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:24:30,635 [http-nio-8080-exec-3] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:24:30,639 [http-nio-8080-exec-3] restaurant.Controller.Servlet  - forward to page /userCabinet.jsp
+INFO    2021-06-15 22:24:43,386 [http-nio-8080-exec-2] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:24:43,386 [http-nio-8080-exec-2] restaurant.Controller.Servlet  - request URI /restaurant/userCabinet/Pay
+INFO    2021-06-15 22:24:43,390 [http-nio-8080-exec-2] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:24:43,394 [http-nio-8080-exec-2] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:24:43,402 [http-nio-8080-exec-2] restaurant.Controller.CommandImpl.PayOrderCommand  - payed order 5
+INFO    2021-06-15 22:24:43,402 [http-nio-8080-exec-2] restaurant.Controller.Servlet  - redirect to page /userCabinet
+INFO    2021-06-15 22:24:43,422 [http-nio-8080-exec-4] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:24:43,426 [http-nio-8080-exec-4] restaurant.Controller.Servlet  - request URI /restaurant/userCabinet
+INFO    2021-06-15 22:24:43,426 [http-nio-8080-exec-4] restaurant.Controller.CommandImpl.UserCabinetGET  - Opening user page
+INFO    2021-06-15 22:24:43,430 [http-nio-8080-exec-4] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:24:43,434 [http-nio-8080-exec-4] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:24:43,442 [http-nio-8080-exec-4] restaurant.Controller.Servlet  - forward to page /userCabinet.jsp
+INFO    2021-06-15 22:29:05,929 [http-nio-8080-exec-2] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:29:05,943 [http-nio-8080-exec-2] restaurant.Controller.Servlet  - request URI /
+INFO    2021-06-15 22:29:05,943 [http-nio-8080-exec-2] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-15 22:29:07,211 [http-nio-8080-exec-2] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:29:07,281 [http-nio-8080-exec-2] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-15 22:29:07,281 [http-nio-8080-exec-2] restaurant.Controller.Servlet  - forward to page /mainPage.jsp
+INFO    2021-06-15 22:29:11,060 [http-nio-8080-exec-7] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:29:11,060 [http-nio-8080-exec-7] restaurant.Controller.Servlet  - request URI /
+INFO    2021-06-15 22:29:11,074 [http-nio-8080-exec-7] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-15 22:29:11,074 [http-nio-8080-exec-7] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:29:11,213 [http-nio-8080-exec-7] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-15 22:29:11,223 [http-nio-8080-exec-7] restaurant.Controller.Servlet  - forward to page /mainPage.jsp
+INFO    2021-06-15 22:29:11,837 [http-nio-8080-exec-9] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:29:11,837 [http-nio-8080-exec-9] restaurant.Controller.Servlet  - request URI /
+INFO    2021-06-15 22:29:11,839 [http-nio-8080-exec-9] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-15 22:29:11,839 [http-nio-8080-exec-9] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:29:11,839 [http-nio-8080-exec-9] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-15 22:29:11,839 [http-nio-8080-exec-9] restaurant.Controller.Servlet  - forward to page /mainPage.jsp
+INFO    2021-06-15 22:29:15,533 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:29:15,547 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - request URI /restaurant/login
+INFO    2021-06-15 22:29:15,547 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.LoginGET  - login page
+INFO    2021-06-15 22:29:15,547 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - forward to page /login.jsp
+INFO    2021-06-15 22:29:22,388 [http-nio-8080-exec-3] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:29:22,388 [http-nio-8080-exec-3] restaurant.Controller.Servlet  - request URI /restaurant/login/Post
+INFO    2021-06-15 22:29:22,388 [http-nio-8080-exec-3] restaurant.Controller.CommandImpl.LoginPOST  - checking data from login
+INFO    2021-06-15 22:29:22,388 [http-nio-8080-exec-3] restaurant.Controller.CommandUtility  - Checking user logged
+INFO    2021-06-15 22:29:22,402 [http-nio-8080-exec-3] restaurant.Controller.CommandUtility  - Logged users []
+INFO    2021-06-15 22:29:22,402 [http-nio-8080-exec-3] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:29:22,416 [http-nio-8080-exec-3] restaurant.Controller.CommandImpl.LoginPOST  - login as user
+INFO    2021-06-15 22:29:22,430 [http-nio-8080-exec-3] restaurant.Controller.Servlet  - redirect to page /main
+INFO    2021-06-15 22:29:22,444 [http-nio-8080-exec-4] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:29:22,444 [http-nio-8080-exec-4] restaurant.Controller.Servlet  - request URI /restaurant/main
+INFO    2021-06-15 22:29:22,444 [http-nio-8080-exec-4] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-15 22:29:22,458 [http-nio-8080-exec-4] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:29:22,472 [http-nio-8080-exec-4] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-15 22:29:22,472 [http-nio-8080-exec-4] restaurant.Controller.Servlet  - forward to page /mainPage.jsp
+INFO    2021-06-15 22:29:24,431 [http-nio-8080-exec-5] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:29:24,431 [http-nio-8080-exec-5] restaurant.Controller.Servlet  - request URI /restaurant/userCabinet
+INFO    2021-06-15 22:29:24,431 [http-nio-8080-exec-5] restaurant.Controller.CommandImpl.UserCabinetGET  - Opening user page
+INFO    2021-06-15 22:29:24,431 [http-nio-8080-exec-5] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:29:24,487 [http-nio-8080-exec-5] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:29:24,487 [http-nio-8080-exec-5] restaurant.Controller.Servlet  - forward to page /userCabinet.jsp
+INFO    2021-06-15 22:29:51,156 [http-nio-8080-exec-2] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:29:51,156 [http-nio-8080-exec-2] restaurant.Controller.Servlet  - request URI /restaurant/userCancelOrder
+INFO    2021-06-15 22:29:51,156 [http-nio-8080-exec-2] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-15 22:29:51,156 [http-nio-8080-exec-2] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:29:51,156 [http-nio-8080-exec-2] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-15 22:29:51,156 [http-nio-8080-exec-2] restaurant.Controller.Servlet  - forward to page /mainPage.jsp
+INFO    2021-06-15 22:29:53,746 [http-nio-8080-exec-7] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:29:53,746 [http-nio-8080-exec-7] restaurant.Controller.Servlet  - request URI /restaurant/userCabinet
+INFO    2021-06-15 22:29:53,746 [http-nio-8080-exec-7] restaurant.Controller.CommandImpl.UserCabinetGET  - Opening user page
+INFO    2021-06-15 22:29:53,746 [http-nio-8080-exec-7] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:29:53,746 [http-nio-8080-exec-7] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:29:53,760 [http-nio-8080-exec-7] restaurant.Controller.Servlet  - forward to page /userCabinet.jsp
+INFO    2021-06-15 22:29:56,407 [http-nio-8080-exec-8] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:29:56,407 [http-nio-8080-exec-8] restaurant.Controller.Servlet  - request URI /restaurant/userCancelOrder
+INFO    2021-06-15 22:29:56,407 [http-nio-8080-exec-8] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-15 22:29:56,407 [http-nio-8080-exec-8] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:29:56,421 [http-nio-8080-exec-8] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-15 22:29:56,421 [http-nio-8080-exec-8] restaurant.Controller.Servlet  - forward to page /mainPage.jsp
+INFO    2021-06-15 22:29:58,455 [http-nio-8080-exec-9] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:29:58,455 [http-nio-8080-exec-9] restaurant.Controller.Servlet  - request URI /restaurant/userCabinet
+INFO    2021-06-15 22:29:58,455 [http-nio-8080-exec-9] restaurant.Controller.CommandImpl.UserCabinetGET  - Opening user page
+INFO    2021-06-15 22:29:58,455 [http-nio-8080-exec-9] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:29:58,455 [http-nio-8080-exec-9] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:29:58,455 [http-nio-8080-exec-9] restaurant.Controller.Servlet  - forward to page /userCabinet.jsp
+INFO    2021-06-15 22:33:33,532 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:33:33,547 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - request URI /
+INFO    2021-06-15 22:33:33,547 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-15 22:33:34,766 [http-nio-8080-exec-1] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:33:34,828 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-15 22:33:34,844 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - forward to page /mainPage.jsp
+INFO    2021-06-15 22:33:38,039 [http-nio-8080-exec-2] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:33:38,039 [http-nio-8080-exec-2] restaurant.Controller.Servlet  - request URI /restaurant/userCabinet
+INFO    2021-06-15 22:33:38,039 [http-nio-8080-exec-2] restaurant.Controller.CommandImpl.UserCabinetGET  - Opening user page
+INFO    2021-06-15 22:33:38,039 [http-nio-8080-exec-2] restaurant.Controller.Servlet  - forward to page /login.jsp
+INFO    2021-06-15 22:33:39,652 [http-nio-8080-exec-3] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:33:39,652 [http-nio-8080-exec-3] restaurant.Controller.Servlet  - request URI /
+INFO    2021-06-15 22:33:39,652 [http-nio-8080-exec-3] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-15 22:33:39,654 [http-nio-8080-exec-3] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:33:39,662 [http-nio-8080-exec-3] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-15 22:33:39,662 [http-nio-8080-exec-3] restaurant.Controller.Servlet  - forward to page /mainPage.jsp
+INFO    2021-06-15 22:33:40,669 [http-nio-8080-exec-6] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:33:40,669 [http-nio-8080-exec-6] restaurant.Controller.Servlet  - request URI /
+INFO    2021-06-15 22:33:40,669 [http-nio-8080-exec-6] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-15 22:33:40,669 [http-nio-8080-exec-6] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:33:40,677 [http-nio-8080-exec-6] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-15 22:33:40,677 [http-nio-8080-exec-6] restaurant.Controller.Servlet  - forward to page /mainPage.jsp
+INFO    2021-06-15 22:33:44,789 [http-nio-8080-exec-8] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:33:44,789 [http-nio-8080-exec-8] restaurant.Controller.Servlet  - request URI /restaurant/login
+INFO    2021-06-15 22:33:44,789 [http-nio-8080-exec-8] restaurant.Controller.CommandImpl.LoginGET  - login page
+INFO    2021-06-15 22:33:44,789 [http-nio-8080-exec-8] restaurant.Controller.Servlet  - forward to page /login.jsp
+INFO    2021-06-15 22:33:51,262 [http-nio-8080-exec-9] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:33:51,262 [http-nio-8080-exec-9] restaurant.Controller.Servlet  - request URI /restaurant/login/Post
+INFO    2021-06-15 22:33:51,262 [http-nio-8080-exec-9] restaurant.Controller.CommandImpl.LoginPOST  - checking data from login
+INFO    2021-06-15 22:33:51,284 [http-nio-8080-exec-9] restaurant.Controller.CommandUtility  - Checking user logged
+INFO    2021-06-15 22:33:51,284 [http-nio-8080-exec-9] restaurant.Controller.CommandUtility  - Logged users []
+INFO    2021-06-15 22:33:51,284 [http-nio-8080-exec-9] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:33:51,310 [http-nio-8080-exec-9] restaurant.Controller.CommandImpl.LoginPOST  - login as user
+INFO    2021-06-15 22:33:51,310 [http-nio-8080-exec-9] restaurant.Controller.Servlet  - redirect to page /main
+INFO    2021-06-15 22:33:51,349 [http-nio-8080-exec-9] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:33:51,349 [http-nio-8080-exec-9] restaurant.Controller.Servlet  - request URI /restaurant/main
+INFO    2021-06-15 22:33:51,349 [http-nio-8080-exec-9] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-15 22:33:51,349 [http-nio-8080-exec-9] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:33:51,362 [http-nio-8080-exec-9] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-15 22:33:51,362 [http-nio-8080-exec-9] restaurant.Controller.Servlet  - forward to page /mainPage.jsp
+INFO    2021-06-15 22:33:57,001 [http-nio-8080-exec-10] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:33:57,001 [http-nio-8080-exec-10] restaurant.Controller.Servlet  - request URI /restaurant/userCabinet
+INFO    2021-06-15 22:33:57,001 [http-nio-8080-exec-10] restaurant.Controller.CommandImpl.UserCabinetGET  - Opening user page
+INFO    2021-06-15 22:33:57,001 [http-nio-8080-exec-10] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:33:57,088 [http-nio-8080-exec-10] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:33:57,088 [http-nio-8080-exec-10] restaurant.Controller.Servlet  - forward to page /userCabinet.jsp
+INFO    2021-06-15 22:34:04,581 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:34:04,581 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - request URI /restaurant/userCancelOrder
+INFO    2021-06-15 22:34:04,581 [http-nio-8080-exec-1] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:34:04,594 [http-nio-8080-exec-1] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:34:04,594 [http-nio-8080-exec-1] restaurant.Controller.CommandImpl.CancelOrderCommand  - order canceled, id: 5
+INFO    2021-06-15 22:34:04,594 [http-nio-8080-exec-1] restaurant.Controller.Servlet  - redirect to page /userCabinet
+INFO    2021-06-15 22:34:04,620 [http-nio-8080-exec-3] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:34:04,620 [http-nio-8080-exec-3] restaurant.Controller.Servlet  - request URI /restaurant/userCabinet
+INFO    2021-06-15 22:34:04,620 [http-nio-8080-exec-3] restaurant.Controller.CommandImpl.UserCabinetGET  - Opening user page
+INFO    2021-06-15 22:34:04,620 [http-nio-8080-exec-3] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:34:04,620 [http-nio-8080-exec-3] restaurant.Controller.Servlet  - forward to page /userCabinet.jsp
+INFO    2021-06-15 22:34:07,116 [http-nio-8080-exec-4] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:34:07,116 [http-nio-8080-exec-4] restaurant.Controller.Servlet  - request URI /restaurant/main
+INFO    2021-06-15 22:34:07,116 [http-nio-8080-exec-4] restaurant.Controller.CommandImpl.MainPageCommand  - 
+Start main page command
+INFO    2021-06-15 22:34:07,116 [http-nio-8080-exec-4] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:34:07,129 [http-nio-8080-exec-4] restaurant.Controller.CommandImpl.MainPageCommand  - End main page command
+
+INFO    2021-06-15 22:34:07,129 [http-nio-8080-exec-4] restaurant.Controller.Servlet  - forward to page /mainPage.jsp
+INFO    2021-06-15 22:34:12,703 [http-nio-8080-exec-5] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:34:12,703 [http-nio-8080-exec-5] restaurant.Controller.Servlet  - request URI /restaurant/userCabinet/Post
+INFO    2021-06-15 22:34:12,703 [http-nio-8080-exec-5] restaurant.Controller.CommandImpl.UserCabinetPOST  - Trying to add dish to order
+INFO    2021-06-15 22:34:12,703 [http-nio-8080-exec-5] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:34:12,703 [http-nio-8080-exec-5] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:34:12,755 [http-nio-8080-exec-5] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:34:12,755 [http-nio-8080-exec-5] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:34:12,767 [http-nio-8080-exec-5] restaurant.Controller.CommandImpl.UserCabinetPOST  - Dish added
+INFO    2021-06-15 22:34:12,767 [http-nio-8080-exec-5] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:34:12,767 [http-nio-8080-exec-5] restaurant.Controller.Servlet  - redirect to page /userCabinet
+INFO    2021-06-15 22:34:12,791 [http-nio-8080-exec-2] restaurant.Controller.Servlet  - Servlet start
+INFO    2021-06-15 22:34:12,791 [http-nio-8080-exec-2] restaurant.Controller.Servlet  - request URI /restaurant/userCabinet
+INFO    2021-06-15 22:34:12,791 [http-nio-8080-exec-2] restaurant.Controller.CommandImpl.UserCabinetGET  - Opening user page
+INFO    2021-06-15 22:34:12,791 [http-nio-8080-exec-2] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:34:12,791 [http-nio-8080-exec-2] restaurant.DAO.DBConnect  - Get connection by pool
+INFO    2021-06-15 22:34:12,791 [http-nio-8080-exec-2] restaurant.Controller.Servlet  - forward to page /userCabinet.jsp

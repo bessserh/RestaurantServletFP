@@ -1,9 +1,9 @@
-package restaurant;
+package restaurant.tag;
 
 import javax.servlet.jsp.tagext.SimpleTagSupport;
 import java.io.IOException;
 
-public class Tag extends SimpleTagSupport {
+public class CustomTag extends SimpleTagSupport {
 
     String name;
 
@@ -13,6 +13,6 @@ public class Tag extends SimpleTagSupport {
 
     @Override
     public void doTag() throws IOException {
-        getJspContext().getOut().write("<span style='font-size:30px'>" + name + " </span>");
+        getJspContext().getOut().write("<span style='font-size:30px'>" + name + "</span>");
     }
 }
