@@ -2,8 +2,6 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 
-
-
 <%@ page isELIgnored="false" %>
 <fmt:setLocale value="${lang}"/>
 <fmt:setBundle basename="MyResources"/>
@@ -33,10 +31,10 @@
         </button>
         <div style="background-color: aqua"><name:userName  name="${name}"/></div>
 
-        <div class="collapse navbar-collapse" id="navbarCollapse" style="margin-left: 40%;">
+        <div class="collapse navbar-collapse" id="navbarCollapse" style="margin-left: 30%;">
 
             <a href="${pageContext.request.contextPath}/restaurant/main"
-               class="btn btn-outline-success" style="background-color: blue"><fmt:message key="header.main"/></a>
+               class="btn btn-outline-success" style="background-color: bisque"><fmt:message key="header.main"/></a>
 
             <div style="margin-left: 10%">
                 <a href="${pageContext.request.contextPath}?sessionLocale=en"

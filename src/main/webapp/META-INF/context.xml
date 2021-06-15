@@ -9,7 +9,7 @@
             maxIdle="30"
             maxWaitMillis="10000"
             driverClassName="org.postgresql.Driver"
-            url="jdbc:postgresql://localhost:5432/restaurantFP?serverTimezone=UTC"
+            url="jdbc:postgresql://localhost:5432/restaurant_FP?serverTimezone=UTC"
             username="postgres"
             password="sps-606"
     />

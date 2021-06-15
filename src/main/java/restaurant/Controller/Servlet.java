@@ -35,6 +35,9 @@ public class Servlet extends HttpServlet {
         commands.put("userCabinetPay", new PayOrderCommand());
         commands.put("userCancelOrder", new CancelOrderCommand());
         commands.put("manageOrder", new OrderManagerCommand());
+        //admin
+        commands.put("admin", new AdminGET());
+        commands.put("adminPost", new AdminPOST());
     }
 
     public void doGet(HttpServletRequest request,

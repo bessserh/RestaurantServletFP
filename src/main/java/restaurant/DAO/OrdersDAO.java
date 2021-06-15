@@ -15,14 +15,13 @@ public class OrdersDAO {
     private static final Logger logger = LogManager.getLogger(OrdersDAO.class);
     private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 
-    public List<Orders> findAllOrders(String status) {
+    public List<Orders> findAllOrders() {
         PreparedStatement preparedStatement = null;
         Connection connection= null;
         List<Orders> orders = new ArrayList<>();
         try {
             connection = DBConnect.getInstance().getConnection();
-            preparedStatement = connection.prepareStatement("SELECT * FROM orders WHERE status = ?;");
-            preparedStatement.setString(1, status);
+            preparedStatement = connection.prepareStatement("SELECT * FROM orders;");
             ResultSet resultSet = preparedStatement.executeQuery();
 
             while (resultSet.next()) {
