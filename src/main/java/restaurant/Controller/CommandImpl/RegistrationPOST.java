@@ -31,7 +31,7 @@ public class RegistrationPOST implements Command {
         } else {
             User user = new User();
             user.setLogin(name);
-            user.setPassword(password);
+            user.setPassword(BCrypt.withDefaults().hashToString(15, password.toCharArray()));
             if (usersDao.insertUser(user) > 0) {
                 logger.info("new user registered");
                 return "redirect:/login";

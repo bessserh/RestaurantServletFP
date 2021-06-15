@@ -27,7 +27,7 @@
 <header>
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="/" style="font-size: 36px"><fmt:message key="header.userCabinet"/></a>
+        <a class="navbar-brand" href="/" style="font-size: 36px"><fmt:message key="header.userCabinet"/>: </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -65,30 +65,30 @@
 
                     <c:if test="${orderStatus=='MAKING'}">
                     <div class="dish-nav">
-                        <form class="dish-cab-form" action="${pageContext.request.contextPath}/restaurant/amountChange"
+                        <form class="dish-cab-form" action="${pageContext.request.contextPath}/restaurant/manageOrder"
                               method="post">
-                            <input type='hidden' id='amountIncrease' name='amountChange' value='plus'>
+                            <input type='hidden' id='amountIncrease' name='manageOrder' value='plus'>
                             <input type='hidden' id='dishId1' name='dishId' value='${dish.id}'>
                             <input type='hidden' id='dishPrice1' name='dishPrice' value='${dish.price}'>
                             <input type='hidden' id='orderId1' name='orderId' value='${orderId}'>
                             <button type="submit">+</button>
                         </form>
-                        <form class="dish-cab-form" action="${pageContext.request.contextPath}/restaurant/amountChange"
+                        <form class="dish-cab-form" action="${pageContext.request.contextPath}/restaurant/manageOrder"
                               method="post">
-                            <input type='hidden' id='amountDecrease' name='amountChange' value='minus'>
+                            <input type='hidden' id='amountDecrease' name='manageOrder' value='minus'>
                             <input type='hidden' id='dishId2' name='dishId' value='${dish.id}'>
                             <input type='hidden' id='dishPrice2' name='dishPrice' value='${dish.price}'>
                             <input type='hidden' id='orderId2' name='orderId' value='${orderId}'>
                             <input type='hidden' id='dishAmount' name='dishAmount' value='${dish.amount}'>
                             <button type="submit">-</button>
                         </form>
-                        <form class="dish-cab-form" action="${pageContext.request.contextPath}/restaurant/amountChange"
+                        <form class="dish-cab-form" action="${pageContext.request.contextPath}/restaurant/manageOrder"
                               method="post">
-                            <input type='hidden' id='RemoveDish' name='amountChange' value='remove'>
+                            <input type='hidden' id='RemoveDish' name='manageOrder' value='remove'>
                             <input type='hidden' id='dishId3' name='dishId' value='${dish.id}'>
                             <input type='hidden' id='dishPrice3' name='dishPrice' value='${dish.totalPrice}'>
                             <input type='hidden' id='orderId3' name='orderId' value='${orderId}'>
-                            <button type="submit"><p><i class="fa fa-trash" aria-hidden="true"></i></p></button>
+                            <button type="submit"><fmt:message key="button.removeDish"/></button>
                         </form>
                 </div>
             </c:if>
@@ -97,21 +97,26 @@
         </div>
         </c:forEach>
 </div>
-    <c:if test="${dishes.size() > 0}">
+    <div>
+        <c:if test="${dishes.size() > 0}">
 
-        <h3><fmt:message key="label.total"/>: <fmt:formatNumber value="${totalPrice}" maxFractionDigits="2"/></h3>
-        <c:if test="${orderStatus=='MAKING'}">
-            <form action="${pageContext.request.contextPath}/restaurant/userCabinet/Pay" method="post">
-                <button type="submit"><fmt:message key="button.pay"/></button>
+            <c:if test="${orderStatus=='MAKING'}">
+                <form action="${pageContext.request.contextPath}/restaurant/userCabinet/Pay" method="post">
+                    <button type="submit"><fmt:message key="button.pay"/></button>
+                </form>
+            </c:if>
+        </c:if>
+        <c:if test="${orderStatus=='APPROVING'}">
+            <form action="${pageContext.request.contextPath}/restaurant/userCancelOrder" method="post">
+                <input type='hidden' id='order' name='orderId' value='${orderId}'>
+                <button type="submit"><fmt:message key="button.cancel"/></button>
             </form>
         </c:if>
-    </c:if>
-    <c:if test="${orderStatus=='APPROVING'}">
-        <form action="${pageContext.request.contextPath}/restaurant/userCancelOrder" method="post">
-            <input type='hidden' id='order' name='orderId' value='${orderId}'>
-            <button type="submit"><fmt:message key="button.cancel"/></button>
-        </form>
-    </c:if>
+        <c:if test="${orderStatus!='MAKING'}">
+            <h2><fmt:message key="cabinet.order.status"/>: ${orderStatus}</h2>
+        </c:if>
+
+    </div>
 </c:if>
 </main>
 </body>

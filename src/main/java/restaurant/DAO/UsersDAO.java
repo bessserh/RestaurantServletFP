@@ -1,5 +1,6 @@
 package restaurant.DAO;
 
+import at.favre.lib.crypto.bcrypt.BCrypt;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import restaurant.Models.Enums.Role;
@@ -72,7 +73,7 @@ public class UsersDAO {
                 logger.error("Error closing connection" + e);
             }
         }
-        if(user!= null && password.equals(user.getPassword())){
+        if(user!= null && BCrypt.verifyer().verify(password.toCharArray(), user.getPassword()).verified){
             return user;
         }
         //TODO return null causes a problem
