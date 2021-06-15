@@ -20,7 +20,6 @@
         <welcome-file>restaurant/*</welcome-file>
     </welcome-file-list>
 
-    <!--
     <error-page>
         <error-code>404</error-code>
         <location>/exception.jsp</location>
@@ -29,7 +28,6 @@
     <error-page>
         <error-code>500</error-code>
         <location>/exception.jsp</location>
-    </error-page>-->
-
+    </error-page>
 
 </web-app>

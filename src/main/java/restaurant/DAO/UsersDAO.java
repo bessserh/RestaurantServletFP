@@ -79,4 +79,26 @@ public class UsersDAO {
         //TODO return null causes a problem
         return null;
     }
+
+    public Integer deleteUser(User user) {
+        PreparedStatement preparedStatement = null;
+        Connection connection = null;
+        int result = 0;
+        try {
+            connection = DBConnect.getInstance().getConnection();
+            preparedStatement = connection.prepareStatement("delete from users where email = ?");
+            preparedStatement.setString(1, user.getLogin());
+            result = preparedStatement.executeUpdate();
+        } catch (SQLException e) {
+            logger.error("SQL exception occurred" + e);
+        } finally {
+            try {
+                preparedStatement.close();
+                connection.close();
+            } catch (SQLException e) {
+                logger.error("Error closing connection" + e);
+            }
+        }
+        return result;
+    }
 }

@@ -32,7 +32,7 @@
             <div class="collapse navbar-collapse" id="navbarCollapse" style="margin-left: 30%;">
 
                 <a href="${pageContext.request.contextPath}/restaurant/main"
-                   class="btn btn-outline-success" style="background-color: cornflowerblue"><fmt:message key="header.main"/></a>
+                   class="btn btn-outline-success" style="background-color: bisque"><fmt:message key="header.main"/></a>
 
                 <div style="margin-left: 10%">
                     <a href="${pageContext.request.contextPath}?sessionLocale=en"

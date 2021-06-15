@@ -23,7 +23,7 @@ public class Servlet extends HttpServlet {
         //general COMMANDS
         commands.put("main", new MainPageCommand());
         commands.put("logout", new LogOutCommand());
-        //commands.put("exception", new Exception());
+        commands.put("exception", new Exception());
         //registration, authorization
         commands.put("registration", new RegistrationGET());
         commands.put("registrationPost", new RegistrationPOST());
